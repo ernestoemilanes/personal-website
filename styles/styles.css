@@ -1,0 +1,185 @@
+* {
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 28px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.carousel-item img {
+    height: 90vh;
+    width: 100%;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+}
+
+.skills {
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li {
+    /* height: 10vh; */
+    margin: 20px 0;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.html {
+    width: 90%;
+    animation: html 4s;
+}
+
+.css {
+    width: 65%;
+    animation: css 4s;
+}
+
+.bootstrap {
+    width: 70%;
+    animation: bootstrap 4s;
+}
+
+.javascript {
+    width: 75%;
+    animation: js 4s;
+}
+
+.react {
+    width: 50%;
+    animation: react 4s;
+}
+
+.python {
+    width: 60%;
+    animation: python 4s;
+}
+
+.postman {
+    width: 65%;
+    animation: postman 4s;
+}
+
+.sql {
+    width: 50%;
+    animation: sql 4s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes bootstrap {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes postman {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
