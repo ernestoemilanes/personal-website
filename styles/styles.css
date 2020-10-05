@@ -48,35 +48,64 @@ body {
     margin: 20px 0;
 }
 
+
 .bar {
-    background: #353b48;
+    background: #fff;
     display: block;
-    height: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 10px #2187e7b3;
+    box-shadow: 0 0 10px #1b03a3;
 }
 
 .bar span {
-    height: 2px;
+    height: 10px;
     float: left;
-    background: #2187e7;
+    background: #2c538f;
+}
+
+#html {
+    color: #E44D26;
+}
+
+#css {
+    color: #254BDD
+}
+
+#bootstrap {
+    color: #553A7D;
+}
+
+#javascript {
+    color: #F7E018;
+}
+
+#react {
+    color: #61DBFB;
+}
+
+#python {
+    color: #3773A3;
+}
+
+#python-icon {
+    color: #FFD43B;
 }
 
 .html {
     width: 90%;
-    animation: html 4s;
+    animation: html 5s;
 }
 
 .css {
     width: 65%;
-    animation: css 4s;
+    animation: css 3s;
 }
 
 .bootstrap {
     width: 70%;
-    animation: bootstrap 4s;
+    animation: bootstrap 3.5s;
 }
 
 .javascript {
@@ -86,12 +115,12 @@ body {
 
 .react {
     width: 50%;
-    animation: react 4s;
+    animation: react 2s;
 }
 
 .python {
     width: 60%;
-    animation: python 4s;
+    animation: python 2.5s;
 }
 
 .postman {
