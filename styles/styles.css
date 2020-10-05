@@ -43,6 +43,14 @@ body {
     color: white;
 }
 
+.skills h1 {
+    text-align: center
+}
+
+.skills li h3 {
+    text-align: center;
+}
+
 .skills li {
     /* height: 10vh; */
     margin: 20px 0;
