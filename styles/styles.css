@@ -29,8 +29,12 @@ body {
 }
 
 .carousel-item img {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
+}
+
+#carousel-h5 {
+    font-family: monospace;
 }
 
 .carousel-caption h5 {
@@ -38,13 +42,17 @@ body {
 }
 
 .skills {
+    height: 100vh;
     width: 500px;
     margin: 60px auto;
     color: white;
 }
 
 .skills h1 {
-    text-align: center
+    text-align: center;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 4.5rem;
 }
 
 .skills li h3 {
@@ -52,7 +60,7 @@ body {
 }
 
 .skills li {
-    /* height: 10vh; */
+
     margin: 20px 0;
 }
 
